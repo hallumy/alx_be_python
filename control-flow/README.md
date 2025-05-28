@@ -19,3 +19,7 @@ A script that asks the user to enter a number, then use a for loop to print the 
 # Drawing Patterns with Nested Loops
 
 A script that prompts the user to enter a positive integer, then use nested loops to print a square pattern of that size made of asterisks (*).
+
+# Personal Daily Reminder
+
+A script will ask the user for a single task, its priority level, and if it is time-sensitive. The program will then provide a customized reminder for that task, demonstrating control flow and loops without relying on data structures to store multiple tasks.
