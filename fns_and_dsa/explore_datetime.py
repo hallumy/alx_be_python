@@ -7,7 +7,8 @@ def display_current_datetime():
     Displays current date and time in 'YYYY-MM-DD HH:MM:SS' format.
     """
     current_date = datetime.now()
-    print("Current Date and Time:", current_date.strftime("%Y-%m-%d %H:%M:%S"))
+    formatted_date = current_date.strftime("%Y-%m-%d %H:%M:%S")
+    print("Current Date and Time:", formatted_date)
 
 def calculate_future_date():
     """
