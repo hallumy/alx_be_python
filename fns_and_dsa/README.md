@@ -17,3 +17,55 @@ This project consists of two Python scripts: `arithmetic_operations.py` and `mai
 
 1. Place `arithmetic_operations.py` and `main.py` in the same directory.
 2. Run the `main.py` script to perform operations with the `perform_operation` function.
+
+# Shopping List Manager
+
+This project features a simple Python script, `shopping_list_manager.py`, that allows users to manage a shopping list dynamically. Using basic list operations, it provides a text-based menu to add, remove, and view items in the shopping list. The program ensures smooth user interaction, handling invalid inputs and empty entries gracefully, making it a great way to practice working with lists and user interfaces in Python.
+
+## Features
+
+✅ Starts with an empty shopping list.  
+✅ Allows users to:
+- Add items to the list.
+- Remove items from the list.
+- View the current shopping list.
+✅ Displays a clear, user-friendly menu.  
+✅ Handles invalid choices and empty entries gracefully.
+
+## Usage
+
+1. Run the script using:
+   ```bash
+   python shopping_list_manager.py
+
+
+# Explore DateTime
+
+This project contains a Python script, `explore_datetime.py`, that showcases the use of Python’s `datetime` module for handling date and time operations.
+
+## Features
+
+✅ Display the current date and time in a clear, readable format.  
+✅ Prompt the user to enter a number of days and calculate the future date based on that input.  
+✅ Uses the `datetime` and `timedelta` classes for accurate date handling.
+
+## Usage
+
+1. Run the script using:
+   ```bash
+   python explore_datetime.py
+
+# Temperature Conversion Tool
+
+This Python script (`temp_conversion_tool.py`) provides a simple and interactive way to convert temperatures between Celsius and Fahrenheit. It demonstrates the use of global variables to store conversion factors and modular functions for conversion.
+
+## Features
+✅ Converts Fahrenheit to Celsius  
+✅ Converts Celsius to Fahrenheit  
+✅ Uses global conversion factors for accurate results  
+✅ Prompts the user for input and validates numeric temperature entries  
+✅ Handles invalid input gracefully  
+
+## Usage
+Run the script and follow the prompts to enter a temperature and specify the unit (Celsius or Fahrenheit). The converted temperature will be displayed in the appropriate unit.
+
