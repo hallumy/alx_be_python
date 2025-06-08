@@ -15,7 +15,7 @@ def convert_to_fahrenheit(celsius):
     """
     Converts Celsius to Fahrenheit using the global conversion factor.
     """
-    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
+    return celsius * CELSIUS_TO_FAHRENHEIT_FACTOR + 32
 
 def prompt_and_convert_temperature():
     """
