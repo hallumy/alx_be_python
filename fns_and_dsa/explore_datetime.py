@@ -18,8 +18,8 @@ def calculate_future_date():
     """ 
 
     try:
-        days_to_add = int(input("Enter the number of days to add: "))
-        future_date = datetime.now() + timedelta(days=days_to_add)
+        number_of_days = int(input("Enter the number of days to add to the current date: "))
+        future_date = datetime.now() + timedelta(days=number_of_days)
 
         print(f"Future Date:", future_date.strftime("%Y-%m-%d"))
     except ValueError:
