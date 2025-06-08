@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-def display_list():
+def display_menu():
     """
     Display the main list options to the user.
     """
@@ -54,7 +54,7 @@ def main():
     shopping_list = []
 
     while True:
-        display_list()
+        display_menu()
         choice = input("Enter your choice (1-4): ").strip()
 
         if choice == '1':
