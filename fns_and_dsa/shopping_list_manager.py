@@ -4,8 +4,8 @@ def display_menu():
     """
     Display the main list options to the user.
     """
-
-    print("\n--- Shopping List Manager ---")
+    print("\nShopping List Manager")
+    print("----------------------")
     print("1. Add item")
     print("2. Remove item")
     print("3. View List")
