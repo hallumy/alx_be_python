@@ -22,7 +22,7 @@ def prompt_and_convert_temperature():
     Prompts the user for a temperature and its unit, performs conversion, and displays the result.
     """
     temperature_input = input("Enter the temperature to convert: ").strip()
-    unit = input("Is this temperature in Celsius or Fahrenheit? (C/F) ").strip().lower()
+    unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().lower()
 
     # Validate numeric input using float conversion
     try:
