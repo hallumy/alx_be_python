@@ -45,3 +45,25 @@ deposit:<amount>
 withdraw:<amount>
 
 display
+
+## Robust Division Calculator with Command Line Arguments
+
+This project consists of two Python scripts that work together to perform division with robust error handling.
+
+robust_division_calculator.py
+Contains the function safe_divide(numerator, denominator) that safely performs division.
+
+Handles:
+
+Division by zero using ZeroDivisionError
+
+Non-numeric input using ValueError
+
+Converts inputs to float and returns either the result or an appropriate error message.
+
+main.py
+Provides a command-line interface.
+
+Accepts two arguments: numerator and denominator.
+
+Imports and uses safe_divide() to compute and print the result or error.
